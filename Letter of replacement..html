@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter of Replacement Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="ui container">
+    <h2 class="ui header">Letter of Replacement</h2>
+    <form id="replacementForm" class="ui form">
+        <!-- New input labels for student name, year, and branch -->
+        <div class="field">
+            <label>Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+        </div>
+        <div class="field">
+            <label>Year:</label>
+            <input type="text" id="year" name="year" required>
+        </div>
+        <div class="field">
+            <label>Branch:</label>
+            <input type="text" id="branch" name="branch" required>
+        </div>
+        <!-- Remaining form elements -->
+        <div class="field">
+            <label>Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="field">
+            <label>Terminated from Which Council:</label>
+            <input type="text" id="terminatedFrom" name="terminatedFrom" required>
+        </div>
+        <div class="field">
+            <label>Reason for Termination:</label>
+            <textarea id="terminationReason" name="terminationReason" rows="3" required></textarea>
+        </div>
+        <div class="field">
+            <label>HR Council Member Name:</label>
+            <div class="ui selection dropdown">
+                <input type="hidden" id="hrMember" name="hrMember">
+                <i class="dropdown icon"></i>
+                <div class="default text">Select HR Member</div>
+                <div class="menu">
+                    <div class="item" data-value="Pushkala">Pushkala</div>
+                    <div class="item" data-value="Bhargav">Bhargav</div>
+                    <div class="item" data-value="Meghana">Meghana</div>
+                    <div class="item" data-value="Prasanth">Prasanth</div>
+                    <div class="item" data-value="Kalyan Sai">Kalyan Sai</div>
+                    <div class="item" data-value="Yuva Kishore">Yuva Kishore</div>
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <label>Advisory Board Member Name:</label>
+            <input type="text" id="advisoryBoardMember" name="advisoryBoardMember" required>
+        </div>
+        <div class="field">
+            <label>Faculty Coordinator Name:</label>
+            <input type="text" id="facultyCoordinator" name="facultyCoordinator" required>
+        </div>
+        <div class="field">
+            <label>HoD Name:</label>
+            <input type="text" id="hodName" name="hodName" required>
+        </div>
+        <button class="ui primary button" type="submit">Generate Letter of Replacement</button>
+    </form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script>
+    $('.ui.dropdown').dropdown();
+
+    $('#replacementForm').on('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Get form data
+        var formData = {
+            studentName: $('#studentName').val(),
+            year: $('#year').val(),
+            branch: $('#branch').val(),
+            date: $('#date').val(),
+            terminatedFrom: $('#terminatedFrom').val(),
+            terminationReason: $('#terminationReason').val(),
+            hrMember: $('#hrMember').val(),
+            advisoryBoardMember: $('#advisoryBoardMember').val(),
+            facultyCoordinator: $('#facultyCoordinator').val(),
+            hodName: $('#hodName').val(),
+        };
+
+        // Generate letter content
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter of Replacement Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="ui container">
+    <h2 class="ui header">Letter of Replacement</h2>
+    <form id="replacementForm" class="ui form">
+        <!-- New input labels for student name, year, and branch -->
+        <div class="field">
+            <label>Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+        </div>
+        <div class="field">
+            <label>Year:</label>
+            <input type="text" id="year" name="year" required>
+        </div>
+        <div class="field">
+            <label>Branch:</label>
+            <input type="text" id="branch" name="branch" required>
+        </div>
+
+
+        <!-- Remaining form elements -->
+        <div class="field">
+            <label>Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="field">
+            <label>Terminated from Which Council:</label>
+            <input type="text" id="terminatedFrom" name="terminatedFrom" required>
+        </div>
+        <div class="field">
+            <label>Reason for Termination:</label>
+            <textarea id="terminationReason" name="terminationReason" rows="3" required></textarea>
+        </div>
+        <div class="field">
+            <label>HR Council Member Name:</label>
+            <div class="ui selection dropdown">
+                <input type="hidden" id="hrMember" name="hrMember">
+                <i class="dropdown icon"></i>
+                <div class="default text">Select HR Member</div>
+                <div class="menu">
+                    <div class="item" data-value="Pushkala">Pushkala</div>
+                    <div class="item" data-value="Bhargav">Bhargav</div>
+                    <div class="item" data-value="Meghana">Meghana</div>
+                    <div class="item" data-value="Prasanth">Prasanth</div>
+                    <div class="item" data-value="Kalyan Sai">Kalyan Sai</div>
+                    <div class="item" data-value="Yuva Kishore">Yuva Kishore</div>
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <label>Advisory Board Member Name:</label>
+            <input type="text" id="advisoryBoardMember" name="advisoryBoardMember" required>
+        </div>
+        <div class="field">
+            <label>Faculty Coordinator Name:</label>
+            <input type="text" id="facultyCoordinator" name="facultyCoordinator" required>
+        </div>
+        <div class="field">
+            <label>HoD Name:</label>
+            <input type="text" id="hodName" name="hodName" required>
+        </div>
+        <button class="ui primary button" type="submit">Generate Letter of Replacement</button>
+    </form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script>
+    $('.ui.dropdown').dropdown();
+
+    $('#replacementForm').on('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Get form data
+        var formData = {
+            studentName: $('#studentName').val(),
+            year: $('#year').val(),
+            branch: $('#branch').val(),
+            date: $('#date').val(),
+            terminatedFrom: $('#terminatedFrom').val(),
+            terminationReason: $('#terminationReason').val(),
+            hrMember: $('#hrMember').val(),
+            advisoryBoardMember: $('#advisoryBoardMember').val(),
+            facultyCoordinator: $('#facultyCoordinator').val(),
+            hodName: $('#hodName').val(),
+
+        };
+
+        // Generate letter content
+       
+
+        // Open letter in new window
+        var newWindow = window.open('', '_blank');
+        newWindow.document.write(`
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter of Replacement Generator</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 30mm;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 12pt;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="SAC LOGO.jpg" alt="SAC Logo">
+        <h1 style="text-align: center; font-size: 18px;">Termination Letter</h1>
+    </header>
+
+    <div style="text-align: right; font-size: 16 px;">Date: <strong>${formData.date}</strong></div>
+    <br>
+    <div>
+        
+        <p>This is to inform to Ms/Mr <strong id="candidateNamePlaceholder">${formData.studentName} (${formData.year}-${formData.branch})</strong> is Terminated/Replaced from his/her position in <strong id="councilPlaceholder">${formData.terminatedFrom}</strong> Council. This decision is made due to the following reason:</p>
+        <br>
+        <br>
+        <div style="border: 1px solid black; padding: 40px; font-weight:bold;">${formData.terminationReason}</div>
+        <br>
+        <br>
+        
+        <div style="margin-top: 20px;">
+            <h3 style="font-weight: bold; text-decoration: underline; font-size: 16px;">To Be Filled by HR (In Case of Replacement/Swapping)</h3>
+            <div style="border: 1px solid black; padding: 10px; font-size: 14px;">
+                <p><strong>Name of the Replaced Student:</strong> __________________________</p>
+                <p><strong>Branch and Contact of the Replaced Student:</strong> ________________________</p>
+                <p><strong>Update on Replacement (if not done):</strong> ____________________</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div style="margin-top: 20px;">
+            <h4>Signatures:</h4>
+            <div style="display: flex; justify-content: space-between; font-size: 14px;">
+                <div>
+                    <p><strong>President(SAC)</strong> <br>
+                        <strong>${formData.hrMember}</strong> </p>
+                    
+                    <p><strong>HR Council(SAC)</strong> <br>
+                        <strong>${formData.hrMember}</strong> </p>
+                    
+                    <p><strong>Faculty Coordinator </strong>  <br>
+                        <strong>${formData.facultyCoordinator}</strong></p>
+                </div>
+                <div>
+                   
+                    <p><strong>Advisory (SAC)</strong>  <br>
+                        <strong>${formData.advisoryBoardMember}</strong> </p>
+                    <br>
+                    <p><strong>Department HoD</strong> <br>
+                        <strong>${formData.hodName}</strong> </p>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
+
+
+        `);
+    });
+</script>
+
+</body>
+</html>
+
+
+    
+          
